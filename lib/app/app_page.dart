@@ -6,16 +6,7 @@ class AppPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text(
-          'This is the Mobile App',
-          style: TextStyle(
-            color: Theme.of(context).colorScheme.inversePrimary,
-            fontWeight: FontWeight.w700,
-            fontSize: 30,
-          ),
-        ),
-      ),
+      backgroundColor: Colors.grey[300],
     );
   }
 }

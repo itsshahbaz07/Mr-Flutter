@@ -1,0 +1,44 @@
+                                            Mr Flutter
+//  Mr Flutter k saary logics is file main hain.
+
+#   Signs & Shortcuts declare.
+//  ->  means k apna POV de rha hoon.
+()  --
+      |
+      |
+{}  --| ------ yeh 3no symbols bhi // is ki trah, full form, yah 1 specific baat k liye use krunga.
+      |
+      |
+[]  --
+
+#   ->  (HashTag)headings yah kisi topic k liye use krunga.
+.   ->  (FullStop or Point) Apni baat k headings yah topic k points k liye use krunga.
+//  baki simbols folders yah kisi or cheez k liye use hongy jo k khud smjh a jayengy.
+
+#   Folder Structure
+
+-   lib
+    -   app // isme app ka content ayega
+        -   apps    // is folder main baki apps yah content hoga
+        -   app_page.dart // yeh main app file hai
+    -   webApp  // isme web ka content ayega
+        -   webs    // is folder main baki webs yah content hoga
+        -   webApp_web  // isme starting web ka content hai
+        -   responsive
+            -   responsive_layout.dart  // isme mobile/app/desktop screen pr chalne k liye screens set hain imp widget
+    -   common  // isme web or app main use hone wali same cheezeen ayengi
+    -   main.dart   // isko main file hi rakha hai
+    -   platform_selector.dart  // is file ko app wali file mobile pr or web wali file ko browser pr chalany k liye banaya hai
+    -   xyz.txt is  // file ko smjhany k yah koi cheez yah pov dene k liye banaya hai
+
+
+
+//  App or Web main headings,widgets yah file main use kiye gye names
+
+.   m   =   mobile
+.   t   =   tablet
+.   d   =   desktop
+.   mt  =   mobile/tablet
+.   mtd =   mobile/tablet/desktop
+
+

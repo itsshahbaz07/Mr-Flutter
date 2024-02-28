@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mr_flutter/webApp/webApp_web/common/bars/webapp_mt_home_sidebar.dart';
+import 'package:mr_flutter/webApp/webApp_web/common/bars/webapp_mt_home_topbar.dart';
 
 class AppPage extends StatelessWidget {
   const AppPage({super.key});
@@ -6,7 +8,9 @@ class AppPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Theme.of(context).colorScheme.background,
+      appBar: WebAppMTHomeTopBar(),
+      drawer: WebAppMTHomeSidebar(),
     );
   }
 }
